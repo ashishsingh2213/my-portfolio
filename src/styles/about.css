@@ -1,0 +1,258 @@
+.about {
+    width: 100%;
+    height: 80rem;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem;
+}
+
+.about-heading1 {
+    width: 100%;
+    height: 5.5rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.about-heading1 h1 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.about-heading1-icon span {
+    font-size: 55px;
+    color: #fff;
+}
+
+.about-heading1-info-para {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-heading1-info-para h1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-heading1-info-para p {
+    width: 69%;
+    line-height: 2rem;
+    font-size: large;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-info1-img {
+    width: 100%;
+    background-color: #121212;
+}
+
+.about-info1-img img {
+    object-fit: fill;
+    width: 100%;
+    height: 30rem;
+    border-radius: 5px;
+}
+
+.exp-proj-clt {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exp-info,
+.proj-info,
+.clt-info {
+    width: 32%;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    border-radius: 5px;
+}
+
+.exp-info {
+    background-color: #121212;
+    border: 1px solid #fff;
+}
+
+.exp-info h1,
+.exp-info p {
+    color: #fff;
+}
+
+.exp-info h1 span {
+    font-weight: 900;
+}
+
+.proj-info {
+    background-color: #fff;
+}
+
+.proj-info h1,
+.proj-info p {
+    color: #121212;
+}
+
+.clt-info {
+    background-color: #121212;
+    border: 1px solid #fff;
+}
+
+.clt-info h1,
+.clt-info p {
+    color: #fff;
+}
+
+.about-experience1-info {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    background-color: #121212;
+}
+
+.about-experience1-heading {
+    width: 20%;
+}
+
+.about-experience1-heading h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.product-designer-info,
+.ui-ux-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.designer-postname h3,
+.ui-postname h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.designer-location p,
+.ui-location p {
+    color: #0fd94c;
+    font-size: large;
+}
+
+.designer-workingtime,
+.ui-workingtime {
+    color: #fff;
+    font-size: large;
+}
+
+.about-service-info {
+    width: 100%;
+    display: flex;
+    background-color: #121212;
+}
+
+.about-service-heading {
+    width: 20%;
+}
+
+.about-service-heading h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.product-design-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-design-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-design-heading h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.product-design-heading p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        height: auto; /* Changed from max-content for better compatibility */
+        padding: 2rem 1rem;
+    }
+
+    .exp-proj-clt {
+        height: auto; /* Changed from max-content for better compatibility */
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .exp-info,
+    .proj-info,
+    .clt-info {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-experience1-info {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        height: auto; /* Changed from max-content for better compatibility */
+    }
+
+    .about-experience1-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto; /* Changed from max-content for better compatibility */
+    }
+
+    .product-designer-info,
+    .ui-ux-info {
+        width: 100%;
+    }
+
+    .about-service-info {
+        flex-direction: column;
+        width: 100%;
+        height: auto; /* Changed from max-content for better compatibility */
+        gap: 1rem;
+    }
+
+    .about-service-heading {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        height: auto; /* Changed from max-content for better compatibility */
+    }
+
+    .product-design-info {
+        width: 100%;
+    }
+}
