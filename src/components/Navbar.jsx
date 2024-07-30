@@ -30,7 +30,7 @@ const Navbar = ({ toggleMenu, isOpen }) => {
   };
 
   return (
-    <div className="navbar">
+    <div className="navbar" id='Navbar'>
       
       <div className="left-side">
         <div className="left-img-logo">

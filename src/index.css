@@ -75,7 +75,7 @@ body {
 }
 
 .dateHeader {
-  width: 9rem;
+  width: 10rem;
   height: 100%;
   color: #ffffff;
   font-size: 14px;
@@ -462,7 +462,7 @@ navlinks ul li a.active {
   }
   
   .dateHeader {
-    width: 10rem;
+    width: 11rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -637,13 +637,13 @@ navlinks ul li a.active {
 }
 
 
-.nav-heading{
+.nav-heading3{
   color: green;
-  font-size: 1rem;
+  font-size: 3rem;
   position: absolute;
   bottom: 4rem;
-  right: 4rem;
-  height: 20px;
+  right: 1rem;
+  height: 40px;
   background-color:grey;
   border-radius: 12px;
 }
