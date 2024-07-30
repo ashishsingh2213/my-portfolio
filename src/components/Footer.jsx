@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer-info">
 
-      <a href="#page1"><img src={bottomarrow} alt="" className='nav-heading' /></a>
+      <a href="#Navbar"><img src={bottomarrow} alt="" className='nav-heading' /></a>
       <p>&#169;Fabulous Jay, 2023 <span>Design by Ashish</span></p>
 
 

@@ -580,6 +580,9 @@ navlinks ul li a.active {
     font-size: .9rem;
     font-weight: 100;
   }
+  .page3-card button i {
+    font-size: .9rem;
+  }
   
   .page4 {
     padding: 2rem .7rem;
@@ -636,11 +639,11 @@ navlinks ul li a.active {
 
 .nav-heading{
   color: green;
-  font-size: 3rem;
+  font-size: 1rem;
   position: absolute;
   bottom: 4rem;
   right: 4rem;
-  height: 50px;
+  height: 20px;
   background-color:grey;
   border-radius: 12px;
 }
