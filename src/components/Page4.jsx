@@ -8,7 +8,7 @@ const Page4 = () => {
         </div>
         <div className="contact-info">
             <p className='mail-para'>Got an Idea? Holla at me let’s talk!!</p>
-            <h2 className='mail-heading'>Contactfedo@gmail.com</h2>
+            <h2 className='mail-heading'>ashishsingh2213@gmail.com</h2>
         </div>
     </div>
   )

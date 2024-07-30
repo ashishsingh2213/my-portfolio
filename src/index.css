@@ -628,6 +628,9 @@ navlinks ul li a.active {
   .mail-para{
     font-size: 1rem;
   }
+  .nav-heading{
+    margin-right: -2rem;
+  }
 }
 
 
@@ -638,6 +641,6 @@ navlinks ul li a.active {
   bottom: 4rem;
   right: 4rem;
   height: 50px;
-  background-color: white;
+  background-color:grey;
   border-radius: 12px;
 }

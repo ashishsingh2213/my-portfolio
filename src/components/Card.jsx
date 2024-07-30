@@ -7,7 +7,7 @@ const Card = () => {
         <div className="img-info">
             <h3>FJ Stores</h3>
             <p>An online store revolutionalizing sales of clothing, shoes and other wearables</p>
-            <button>View Project</button>
+            <button>View Project <i class="fa-solid fa-arrow-up"></i></button>
         </div>
       
     </div>

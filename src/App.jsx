@@ -14,7 +14,6 @@ import Home from './components/Home';
 import WorkLink from './components/WorkLink';
 import AboutLink from './components/AboutLink';
 import ContactLink from './components/ContactLink';
-import CircleText from './components/CircleText';
 import "./App.css"
 
 function App() {
