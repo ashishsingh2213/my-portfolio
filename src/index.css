@@ -600,6 +600,9 @@ navlinks ul li a.active {
     height: max-content;
     width: 60rem;
   }
+  .page3-card button{
+    font-weight: 600;
+  }
   
   .work-info {
     /* background-color: red; */
