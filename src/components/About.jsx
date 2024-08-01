@@ -14,7 +14,7 @@ const About = () => {
         <div className="about-heading1-info-para">
           <h1>
             I am an award-winning product designer specialized in UX/UI that
-            lives in Nigeria with over 5 years of experience
+            lives in India with over 3 years of experience
           </h1>
           <p>
             I work from the user experience to the visual details and then
@@ -33,7 +33,7 @@ const About = () => {
       </div>
       <div className="exp-proj-clt">
         <div className="exp-info">
-          <h1>5 <span>+</span></h1>
+          <h1>3 <span>+</span></h1>
           <p>Years of Experience</p>
         </div>
         <div className="proj-info">
