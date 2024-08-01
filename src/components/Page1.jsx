@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Page1 = () => {
+  const handleDownloadResume = () => {
+    // Trigger the download by navigating to the file URL
+    window.open('/resume.pdf', '_blank', 'noopener,noreferrer');
+  };
   return (
     <div className="page1" id='page1'>
       <div className="left-page1">
@@ -13,7 +17,8 @@ const Page1 = () => {
         </div>
         <div className="button-info1">
           <button to="/contact" className="btn1">Let's Talk</button>
-          <button to="/resume" className="btn2">View Resume</button>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"/>
+          <button to="/resume" className="btn2" onClick={handleDownloadResume}>View Resume</button>
         </div>
       </div>
       <div className="right-page1">
