@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ashii from '../image/profile.jpeg'; // Corrected import syntax
 
 const Page1 = () => {
   const handleDownloadResume = () => {
@@ -17,13 +18,13 @@ const Page1 = () => {
         </div>
         <div className="button-info1">
           <button to="/contact" className="btn1">Let's Talk</button>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"/>
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"></a>
           <button to="/resume" className="btn2" onClick={handleDownloadResume}>View Resume</button>
         </div>
       </div>
       <div className="right-page1">
         <div className="profile-img-info">
-          <img src="https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.jpg?s=2048x2048&w=is&k=20&c=yif473DFhN451o-tNC1tASFFoP5QTOYcqS26dhEbv6U=" alt="Profile" />
+          <img src={ashii} alt="Ashish Profile" /> {/* Added alt attribute */}
           <div className="social-link">
             <Link to="https://www.instagram.com/123/" target='_blank' className="social-icon">
               <i className="ri-instagram-line"></i>

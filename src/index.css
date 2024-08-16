@@ -686,11 +686,21 @@ body {
   .btn1 {
     width: 48%;
     font-size:.9rem ;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .btn1:hover {
+    background-color: yellow; /* Hover background color */
+    color: #121212; /* Hover text color */
   }
   
   .btn2 {
     width: 48%;
     font-size: .9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .btn2:hover {
+    background-color: grey; /* Hover background color */
+    color: #fff; /* Hover text color */
   }
   
   .page2 {
@@ -806,7 +816,7 @@ body {
   color: green;
   font-size: 3rem;
   position: absolute;
-  bottom: 4rem;
+  bottom: -108rem;
   right: 1rem;
   height: 40px;
   background-color:grey;

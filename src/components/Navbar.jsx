@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ashii from '../image/profile.jpeg';
 
 
 const Navbar = ({ toggleMenu, isOpen }) => {
@@ -33,8 +34,7 @@ const Navbar = ({ toggleMenu, isOpen }) => {
       <div className="left-side">
         <div className="left-img-logo">
           <img
-            src="https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.jpg?s=2048x2048&w=is&k=20&c=yif473DFhN451o-tNC1tASFFoP5QTOYcqS26dhEbv6U="
-            alt="Logo"
+            src={ashii}
           />
         </div>
         <button className={`hamburger ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
