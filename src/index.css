@@ -103,7 +103,7 @@ body {
   justify-content: end;
 }
 
-.dateHeader {
+.dateHeader1 {
   width: 10rem;
   height: 100%;
   color: #ffffff;
@@ -114,6 +114,18 @@ body {
   gap: 1rem;
   line-height: 1.2;
 }
+.dateHeader2 {
+  width: 10rem;
+  height: 100%;
+  color: #ffffff;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  line-height: 1.2;
+}
+
 
 
 .navlinks {
@@ -605,19 +617,25 @@ body {
   }
   
   .right-date-time-info {
-    width: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     padding-top: 1rem;
     
     
   }
   
-  .dateHeader {
-    width: 11rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .dateHeader1 {
+    width: 45%;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: flex-end; */
     /* font-size: 16px; */
+  }
+  .dateHeader2{
+    width: 23%;
+    right: 1rem;
   }
   .navlinks ul li{
     font-size: 28px;

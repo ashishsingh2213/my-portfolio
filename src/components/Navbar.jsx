@@ -44,10 +44,10 @@ const Navbar = ({ toggleMenu, isOpen }) => {
       </div>
 
       <div className="right-date-time-info">
-        <div className="dateHeader">
+        <div className="dateHeader1">
           <span>{formatDate(currentDateTime)}</span>
         </div>
-        <div className="dateHeader">
+        <div className="dateHeader2">
           <span>{formatTimeIST(currentDateTime)}</span>
         </div>
       </div>
