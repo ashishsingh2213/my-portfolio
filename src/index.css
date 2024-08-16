@@ -203,6 +203,8 @@ body {
   border-radius: 5px;
   border: 0.5px solid black;
   transition: background-color 0.3s ease, color 0.3s ease;
+  /* position: absolute;
+  z-index: 100; */
 }
 
 .btn2 {
@@ -215,21 +217,23 @@ body {
   border-radius: 5px;
   border: 0.5px solid white;
   transition: background-color 0.3s ease, color 0.3s ease;
+  /* position: absolute; */
+  /* z-index: 1001; */
 }
 .btn1:hover {
   background-color: yellow;
-  color: black; /* Ensure text is readable on light background */
+  color: black; 
 }
 
 .btn2:hover {
   background-color: rgba(46, 44, 44, 0.847);
-  color: white; /* Ensure text remains visible on dark background */
+  color: white; 
 }
 
 .right-page1 {
   width: 60%;
   height: 30rem;
-  /* background-color: #b73333; */
+ 
 }
 
 .profile-img-info {
@@ -632,16 +636,37 @@ body {
   .left-page1 {
     width: 100%;
     /* height: max-content; */
-    height: 20rem;
+    height: 22rem;
     padding: 2rem .7rem;
     margin-top: -2.6rem;
   }
+  .btn1 {
+    width: 48%;
+    font-size:.9rem ;
+    transition: background-color 1s ease, color 1s ease;
+   
+  }
+  .btn1:hover {
+    background-color: yellow; 
+    color: #121212; 
+  }
+  
+  .btn2 {
+    width: 48%;
+    font-size: .9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .btn2:hover {
+    background-color: grey; /* Hover background color */
+    color: #fff; /* Hover text color */
+  }
+  
 
   .right-page1 {
     padding: 2rem .7rem;
     width: 100%;
     /* height: max-content; */
-    height: 40rem;
+    height: 38rem;
     flex-direction: row;
     margin-top: -2.6rem;
   }
@@ -683,25 +708,6 @@ body {
     justify-content: space-between;
   }
   
-  .btn1 {
-    width: 48%;
-    font-size:.9rem ;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  .btn1:hover {
-    background-color: yellow; /* Hover background color */
-    color: #121212; /* Hover text color */
-  }
-  
-  .btn2 {
-    width: 48%;
-    font-size: .9rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  .btn2:hover {
-    background-color: grey; /* Hover background color */
-    color: #fff; /* Hover text color */
-  }
   
   .page2 {
     padding: 2rem .7rem;
@@ -731,12 +737,26 @@ body {
   .btn-a {
     width: 48%;
     font-size: .9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
+  .btn-a:hover {
+    background-color: yellow; 
+    color: #121212; 
+  }
+  
+  
+
   
   .btn-b {
     width: 48%;
     font-size: .9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
+  .btn-b:hover {
+    background-color: grey; 
+    color: #fff; 
+  }
+  
   
   .page3 {
     padding: 2rem .7rem;
@@ -816,7 +836,7 @@ body {
   color: green;
   font-size: 3rem;
   position: absolute;
-  bottom: -108rem;
+  margin-bottom: 2rem;
   right: 1rem;
   height: 40px;
   background-color:grey;
