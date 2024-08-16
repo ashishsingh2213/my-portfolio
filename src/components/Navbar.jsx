@@ -1,6 +1,5 @@
-// import React from 'react'
-// 
 import React, { useState, useEffect } from 'react';
+
 
 const Navbar = ({ toggleMenu, isOpen }) => {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
@@ -30,8 +29,7 @@ const Navbar = ({ toggleMenu, isOpen }) => {
   };
 
   return (
-    <div className="navbar" id='Navbar'>
-      
+    <div className="navbar" id="Navbar">
       <div className="left-side">
         <div className="left-img-logo">
           <img
@@ -39,9 +37,10 @@ const Navbar = ({ toggleMenu, isOpen }) => {
             alt="Logo"
           />
         </div>
-        <div className="center-logo-icon" onClick={toggleMenu}>
-          {isOpen ? 'X' : '☰'}
-        </div>
+        <button className={`hamburger ${isOpen ? 'active' : ''}`} onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+        </button>
       </div>
 
       <div className="right-date-time-info">

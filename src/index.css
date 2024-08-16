@@ -23,8 +23,6 @@ body {
 
 
 
-
-
 .navbar {
   width: 100%;
   height: max-content;
@@ -37,7 +35,6 @@ body {
   position: relative;
   top: 0px;
   z-index: 100;
-  
 }
 
 .left-side {
@@ -52,6 +49,38 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  margin-right: 10px;
+}
+
+.hamburger {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #fff; /* Changed color to white */
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Transformations for the hamburger icon */
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 .center-logo-icon {
@@ -63,7 +92,7 @@ body {
   justify-content: center;
   font-size: 30px;
   cursor: pointer;
-  transition: transform 3s ease;
+  transition: transform 0.3s ease;
 }
 
 .right-date-time-info {
@@ -72,7 +101,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: end;
-  
 }
 
 .dateHeader {
@@ -84,8 +112,48 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  right: 0;
-  line-height: 1px;
+  line-height: 1.2;
+}
+
+
+.navlinks {
+  width: 100%;
+  height: 30rem;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  position: absolute;
+  top: -24rem;
+  transition: top 1s ease;
+}
+
+.navlinks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navlinks ul li {
+  font-size: 54px;
+  font-weight: 700;
+  color: grey;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  color: rgb(71, 70, 70);
+}
+
+.navlinks ul li a.active {
+  background-color: blue;
+  color: white;
 }
 
 .page1 {
@@ -297,13 +365,13 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
   height: max-content;
-  /* background-color: aquamarine; */
+ 
 }
 
 .page3-card {
   width: 26rem;
   height: 30rem;
-  /* background-color: rgb(85, 0, 255); */
+  
 }
 
 .page3-card img {
@@ -402,7 +470,7 @@ body {
 /* ................portfolio .... ui .....first page end here .................. */
 
 /* .............navlinks starts here ........... */
-.navlinks{
+.navlinks {
   width: 100%;
   height: 30rem;
   background-color: #121212;
@@ -413,11 +481,10 @@ body {
   gap: 5rem;
   position: absolute;
   top: -24rem;
-  transition: 1s;
-  /* display: none; */
+  transition: top 1.7s ease;
 }
-.navlinks ul{
-  
+
+.navlinks ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -426,20 +493,26 @@ body {
   gap: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.navlinks ul li{
-  
+
+.navlinks ul li {
   font-size: 54px;
   font-weight: 700;
   color: grey;
 }
-.navlinks ul li a{
+
+.navlinks ul li a {
   text-decoration: none;
   color: rgb(71, 70, 70);
+  transition: color 0.3s ease;
 }
-navlinks ul li a.active {
-  background-color: blue;
-  color: white;
+
+.navlinks ul li a.active {
+  
+  background-color: transparent;
+  color: rgb(223, 241, 64);
 }
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -469,24 +542,35 @@ navlinks ul li a.active {
     justify-content: center;
     /* font-size: 16px; */
   }
+  .navlinks ul li{
+    font-size: 28px;
+  }
 
   .page1 {
     padding: 2rem .1rem;
     background-color: black;
-    height: max-content;
+     /* height: max-content;  */
+     height: 55rem;
+    margin-top: 0px;
+    
+    
   }
   
   .left-page1 {
     width: 100%;
-    height: max-content;
+    /* height: max-content; */
+    height: 20rem;
     padding: 2rem .7rem;
+    margin-top: -2.6rem;
   }
 
   .right-page1 {
     padding: 2rem .7rem;
     width: 100%;
-    height: max-content;
+    /* height: max-content; */
+    height: 40rem;
     flex-direction: row;
+    margin-top: -2.6rem;
   }
   
   .profile-img-info img {
