@@ -139,7 +139,9 @@ body {
   gap: 5rem;
   position: absolute;
   top: -24rem;
-  transition: top 1s ease;
+  transition: top 1s ease-in-out;
+  position: absolute;
+  z-index: 20;
 }
 
 .navlinks ul {
@@ -675,6 +677,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    /* position: absolute;
+    z-index: 120; */
    
     animation: slideInLeft 2s ease-out forwards;
   }
@@ -685,7 +689,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-   
+    /* position: absolute;
+    z-index: 120; */
     animation: slideInLeft 4s ease-in-out forwards;
   }
   
