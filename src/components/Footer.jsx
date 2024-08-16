@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer-info">
 
       <a href="#Navbar"><img src={bottomarrow} alt="" className='nav-heading3' /></a>
-      <p>&#169;Fabulous Jay, 2023 <span>Design by Ashish</span></p>
+      <p>&#169;Fabulous Jay, 2023 <span className='footer-span'>Design by Ashish <i class="fa-solid fa-arrow-up"></i></span></p>
 
 
     </div>
