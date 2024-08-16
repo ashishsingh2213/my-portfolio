@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/about.css";
+import ashii from '../image/profile.jpeg';
 
 const About = () => {
   return (
@@ -27,8 +28,7 @@ const About = () => {
       </div>
       <div className="about-info1-img">
         <img
-          src="https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.jpg?s=2048x2048&w=is&k=20&c=yif473DFhN451o-tNC1tASFFoP5QTOYcqS26dhEbv6U="
-          alt="Portrait of young man"
+          src={ashii}
         />
       </div>
       <div className="exp-proj-clt">

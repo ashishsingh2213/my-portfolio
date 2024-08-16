@@ -660,21 +660,48 @@ body {
     
   }
   .dateHeader2{
-    width: 25%;
+    width: 28%;
     right: 1rem;
   }
-  .navlinks ul li{
-    font-size: 28px;
-    border: none;
-    outline: none;
-    list-style: none;
-    text-decoration: none;
-  }
-  .navlinks ul li a {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(71, 70, 70);
-  }
+   /* General styles for navlinks */
+/* Reset outline and border for all elements */
+* {
+  outline: none;
+  border: none;
+}
+
+/* General styles for navlinks */
+.navlinks ul li {
+  font-size: 28px;
+  list-style: none;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  color: rgb(71, 70, 70);
+  transition: color 0.3s ease;
+  outline: none; /* Remove default focus outline */
+  border: none;  /* Remove default border if any */
+}
+
+/* Ensure no color change or outline on focus or active state */
+.navlinks ul li a:focus,
+.navlinks ul li a:active {
+  color: rgb(71, 70, 70); /* Keep the same color on click */
+  outline: none; /* Remove default focus outline */
+  border: none;  /* Remove default border if any */
+}
+
+/* Active link color */
+.navlinks ul li a.active {
+  color: rgb(223, 241, 64); /* Active link color */
+}
+
+/* Remove default browser styles */
+.navlinks ul li a:focus-visible {
+  outline: none; /* Remove focus outline for keyboard navigation */
+}
+
 
   .page1 {
     padding: 2rem .1rem;
