@@ -656,12 +656,12 @@ body {
   }
   
   .dateHeader1 {
-    width: 48%;
+    width: 50%;
     
   }
   .dateHeader2{
     width: 28%;
-    right: 1rem;
+    /* right: 1rem; */
   }
    /* General styles for navlinks */
 /* Reset outline and border for all elements */
