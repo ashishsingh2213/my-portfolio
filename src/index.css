@@ -712,7 +712,7 @@ body {
   .page2 {
     padding: 2rem .7rem;
     gap: 1rem;
-    height: 45rem;
+    /* height: 45rem; */
     background-color: black;
     
    
