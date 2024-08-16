@@ -58,7 +58,7 @@ body {
   height: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center; /* Center the spans within the container */
   background: transparent;
   border: none;
   cursor: pointer;
@@ -72,7 +72,10 @@ body {
   background-color: #fff; /* Changed color to white */
   border-radius: 2px;
   transition: all 0.3s ease;
+  margin: 3px 0; /* Adjust margin to increase distance slightly */
 }
+
+
 
 /* Transformations for the hamburger icon */
 .hamburger.active span:nth-child(1) {
