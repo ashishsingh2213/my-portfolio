@@ -17,10 +17,10 @@ const Page1 = () => {
     <div className="page1" id='page1'>
       <div className="left-page1">
         <div className="heading-info">
-          <h1>Creative Front-End Developer.</h1>
+          <h1 className="scrolling-text1">Creative Front-End Developer.</h1>
         </div>
         <div className="developer-info">
-          <p>Hello, I’m Ashish, I support designers and agencies with creative development</p>
+          <p className="scrolling-text2">Hello, I’m Ashish, I support designers and agencies with creative development</p>
         </div>
         <div className="button-info1">
           <button className="btn1" onClick={handleNavigate}>Let's Talk</button>

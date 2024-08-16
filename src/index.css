@@ -658,6 +658,38 @@ body {
     padding: 2rem .7rem;
     margin-top: -2.6rem;
   }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .scrolling-text1 {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: bold; /* Adjust the weight as needed */
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+    animation: slideInLeft 2s ease-out forwards;
+  }
+  .scrolling-text2 {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    font-weight: normal; /* Adjust the weight as needed */
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+    animation: slideInLeft 4s ease-in-out forwards;
+  }
+  
+  
   .btn1 {
     width: 48%;
     font-size:.9rem ;
