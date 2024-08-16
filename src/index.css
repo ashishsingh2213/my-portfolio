@@ -169,7 +169,7 @@ body {
 }
 
 .navlinks ul li a.active {
-  background-color: blue;
+  
   color: white;
 }
 
@@ -665,6 +665,15 @@ body {
   }
   .navlinks ul li{
     font-size: 28px;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+  }
+  .navlinks ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(71, 70, 70);
   }
 
   .page1 {
