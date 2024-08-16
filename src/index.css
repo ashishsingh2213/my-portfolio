@@ -201,7 +201,7 @@ body {
   font-size: .9rem;
   background-color: #fff;
   border-radius: 5px;
-  border: 0.5px solid black;
+  border: 0.5px solid #121212;
   transition: background-color 0.3s ease, color 0.3s ease;
   /* position: absolute;
   z-index: 100; */
@@ -222,7 +222,7 @@ body {
 }
 .btn1:hover {
   background-color: yellow;
-  color: black; 
+  color: #121212; 
 }
 
 .btn2:hover {
@@ -342,7 +342,7 @@ body {
   font-size: .9rem;
   background-color: #fff;
   border-radius: 5px;
-  border: 0.5px solid black;
+  border: 0.5px solid #121212;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -361,7 +361,7 @@ body {
 /* Hover effects */
 .btn-a:hover {
   background-color: yellow;
-  color: black; /* Ensure text is readable on light background */
+  color: #121212; /* Ensure text is readable on light background */
 }
 
 .btn-b:hover {
@@ -625,7 +625,7 @@ body {
 
   .page1 {
     padding: 2rem .1rem;
-    background-color: black;
+    background-color: #121212;
      /* height: max-content;  */
      height: 55rem;
     margin-top: 0px;
