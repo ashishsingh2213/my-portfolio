@@ -80,6 +80,7 @@ body {
 /* Transformations for the hamburger icon */
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
+  
 }
 
 .hamburger.active span:nth-child(2) {
@@ -334,7 +335,7 @@ body {
 }
 
 .about-para {
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 .para-1 {
